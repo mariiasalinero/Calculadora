@@ -32,9 +32,18 @@ public class Operaciones {
         result = num1 - num2;
         System.out.println(num1+" + "+num2+" = "+result);
     }
-    public void Multiplicacion(){
+   /* public void Multiplicacion(){
         result=num1*num2;
         Sistem.out.println("el resultado es:"+result);
-
+    }    
+    */
+      public void Division(){
+          if(num1>num2){
+              result=num1/num2;
+          }else{
+              result=num2/num1;
+          }
+          System.out.printl("El resultado es: " +result);
+      }
 
 }
