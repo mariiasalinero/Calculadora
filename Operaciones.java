@@ -45,5 +45,12 @@ public class Operaciones {
           }
           System.out.printl("El resultado es: " +result);
       }
+    //En esta rama, no deseamos que se muestre por pantalla cada resultado, sino que preferimos hacer un metodo de visualizar
+    public int Sumando(){
+        return result=num1+num2;
+    }
+    public void visualizar(){
+        System.out.println("El resultado de la suma de: "+num1+" y "+num2+ " es igual a: "+Sumando());
+    }
 
 }
