@@ -32,6 +32,9 @@ public class Operaciones {
         result = num1 - num2;
         System.out.println(num1+" + "+num2+" = "+result);
     }
+    public void Multiplicacion(){
+        result=num1*num2;
+        Sistem.out.println("el resultado es:"+result);
 
 
 }
